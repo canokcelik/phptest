@@ -1,7 +1,13 @@
 <?php
 
-$test=3+5;
+$user=$_GET['username'];
+$pass=$_GET['password'];
 
-echo "$test \n"
+if($user=="cokcelik" && $pass=="test") {
+    echo "login oldun.";
+}
+else {
+    echo "kullanıcı adı/sifre yanlis"
+}
 
 ?>

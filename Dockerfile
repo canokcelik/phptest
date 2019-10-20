@@ -6,7 +6,7 @@ RUN apt-get update \
 
 WORKDIR /var/www/html/
 
-RUN git clone 'https://github.com/canokcelik/phptest.git'
+#RUN git clone 'https://github.com/canokcelik/phptest.git'
 
-RUN mv phptest/* .
+COPY . .
 

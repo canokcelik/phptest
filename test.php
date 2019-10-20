@@ -4,7 +4,7 @@ $user=$_GET['username'];
 $pass=$_GET['password'];
 
 if($user=="cokcelik" && $pass=="test") {
-    echo "login oldun.";
+    header("Location: index.php"); 
 }
 else {
     echo "kullanici adi/sifre yanlis";

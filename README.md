@@ -1,6 +1,6 @@
 ## How to run:
 
-- Install [https://hub.docker.com/search/?type=edition&offering=community](Docker) for your OS.
+- Install [Docker](https://hub.docker.com/search/?type=edition&offering=community) for your OS.
 
 - Clone git repo:
     `git clone https://github.com/canokcelik/phptest.git`

@@ -7,7 +7,7 @@ if($user=="cokcelik" && $pass=="test") {
     echo "login oldun.";
 }
 else {
-    echo "kullanıcı adı/sifre yanlis"
+    echo "kullanici adi/sifre yanlis";
 }
 
 ?>

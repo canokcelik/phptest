@@ -16,7 +16,7 @@
   <p>The form below contains two input elements; one of type text and one of type password:</p>
 
 
-  <form action="test.php" >
+  <form action="test.php">
     <div class="form-group">
       <label for="usr">Name:</label>
       <input type="text" class="form-control" id="usr" name="username">
@@ -25,7 +25,7 @@
       <label for="pwd">Password:</label>
       <input type="password" class="form-control" id="pwd" name="password">
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary">Login</button>
   </form>
 </div>
 
